@@ -149,9 +149,9 @@ main > div > div > a > img {
     justify-items: center;
     justify-content: center; }
   main > div > div > a > img {
-    width: 95%;
-    height: 100%;
-    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    object-fit: initial;
     border-radius: 20px;
     padding: 10px; } }
 
@@ -173,9 +173,9 @@ main > div > div > a > img {
     justify-items: center;
     justify-content: center; }
   main > div > div > a > img {
-    min-width: 31vw;
-    min-height: auto;
-    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    object-fit: initial;
     border-radius: 20px;
     padding: 10px; } }
 
@@ -221,7 +221,25 @@ footer {
 .mainperfil {
   min-height: 100%;
   width: 100%;
-  font-size: 22px; }
+  font-size: 20px; }
+
+.contenedorcards {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  object-fit: cover; }
+
+h5 {
+  padding-top: 20px; }
+
+.a {
+  width: 230px;
+  height: 270px;
+  border-radius: 10px; }
+
+.card {
+  border-radius: 15px; }
 
 @media (min-width: 700px) {
   .perfil {
@@ -234,31 +252,43 @@ footer {
     padding-bottom: 25px; }
   .mainperfil {
     min-height: 700px;
-    width: 100%; } }
+    width: 100%; }
+  .a {
+    width: 230px;
+    height: 270px;
+    border-radius: 10px; }
+  .card {
+    border-radius: 15px; } }
 
 @media (min-width: 1010px) {
   .mainperfil {
     min-height: 100vh;
     width: 100%;
-    font-size: 16px; } }
+    font-size: 16px; }
+  .a {
+    width: 300px;
+    height: 270px;
+    border-radius: 10px; }
+  .card {
+    border-radius: 15px; } }
 
 .maindiscografia {
   padding: 10px;
-  min-height: 90%;
-  width: 100%;
-  font-size: 19px;
+  min-height: auto;
+  width: auto;
+  font-size: 16px;
   background-color: #6969B3; }
 
 .parrafo {
   padding: 10px; }
 
 section .img1discografia {
-  float: left;
+  display: flex;
   margin-bottom: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: auto;
-  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
   border-radius: 10px; }
 
 section .img1discografia:hover {
@@ -270,23 +300,68 @@ section .img1discografia:hover {
   opacity: 1;
   filter: sepia(120%); }
 
+div {
+  text-align: center; }
+  div .video {
+    width: 400px;
+    height: 400px; }
+
 @media (min-width: 700px) {
   .maindiscografia {
     min-height: auto;
     width: auto;
     font-size: 19px; }
   .parrafo {
-    padding: 30px; } }
+    padding: 30px; }
+  section .img1discografia {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    min-height: 380px;
+    border-radius: 10px; }
+  section .img1discografia:hover {
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .6s ease;
+    cursor: crosshair;
+    opacity: 1;
+    filter: sepia(120%); }
+  div {
+    text-align: center; }
+    div .video {
+      width: 550px;
+      height: 400px; } }
 
 @media (min-width: 1010px) {
   .maindiscografia {
     min-height: auto;
     width: auto;
     font-size: 16px; }
+  section .img1discografia {
+    float: left;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+    border-radius: 10px; }
+  section .img1discografia:hover {
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .6s ease;
+    cursor: crosshair;
+    opacity: 1;
+    filter: sepia(120%); }
   div {
     text-align: center; }
-    div iframe {
-      padding: auto; } }
+    div .video {
+      width: 950px;
+      height: 500px; } }
 
 .maintour {
   min-height: 100%;
