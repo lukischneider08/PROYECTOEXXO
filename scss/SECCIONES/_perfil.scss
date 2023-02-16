@@ -18,14 +18,14 @@
 }
 
 .accordion-button {
-    background-color: #98C1D9;
+    background-color: $color-principal;
     height: 30px;
     color: #98C1D9
 }
 
 .accordion-body {
     padding: 8px 12px;
-    background-color: #6969B3
+    background-color:$color-secundario
 }
 
 

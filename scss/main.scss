@@ -7,16 +7,16 @@ $color-secundario: #6969B3;
     font-family: 'Manrope', sans-serif;
 }
 
-@import "./SECCIONES/_header.scss";
+@import "./SECCIONES/header";
 
-@import "./SECCIONES/_main-index.scss";
+@import "./SECCIONES/main-index";
 
-@import "./SECCIONES/_footer.scss";
+@import "./SECCIONES/footer";
 
-@import "./SECCIONES/_perfil.scss";
+@import "./SECCIONES/perfil";
 
-@import "./SECCIONES/_discografia.scss";
+@import "./SECCIONES/discografia";
 
-@import "./SECCIONES/_tour.scss";
+@import "./SECCIONES/tour";
 
-@import "./SECCIONES/_galeria.scss";
+@import "./SECCIONES/galeria";

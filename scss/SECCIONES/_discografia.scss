@@ -4,6 +4,7 @@
     min-height: 90%;
     width: 100%;
     font-size: 19px;
+    background-color: $color-secundario;
 }
 
 .parrafo {
@@ -43,8 +44,8 @@ section {
 @media (min-width: 700px) {
 
     .maindiscografia {
-        min-height: 100%;
-        width: 100%;
+        min-height: auto;
+        width: auto;
         font-size: 19px;
     }
 
