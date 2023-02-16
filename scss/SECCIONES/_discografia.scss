@@ -1,0 +1,77 @@
+.maindiscografia {
+
+    padding: 10px;
+    min-height: 90%;
+    width: 100%;
+    font-size: 19px;
+}
+
+.parrafo {
+    padding: 10px;
+
+}
+
+section {
+
+
+
+
+    .img1discografia {
+        float: left;
+        margin-bottom: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        height: auto;
+        border-radius: 10px;
+
+    }
+
+    .img1discografia:hover {
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .5;
+        transition: .6s ease;
+        cursor: crosshair;
+        opacity: 1;
+        filter: sepia(120%)();
+    }
+}
+
+
+
+@media (min-width: 700px) {
+
+    .maindiscografia {
+        min-height: 100%;
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .parrafo {
+        padding: 30px;
+    }
+}
+
+
+@media (min-width: 1010px) {
+
+
+
+
+
+    .maindiscografia {
+        min-height: auto;
+        width: auto;
+        font-size: 16px;
+    }
+
+    div{
+        text-align: center;
+
+    iframe {
+        padding: auto;
+    }
+}
+
+}

@@ -1,0 +1,61 @@
+.maintour {
+    min-height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+
+table tr th {
+    border-collapse: collapse;
+    border: rgba(255, 255, 255, 0.432) solid 1px;
+    padding: 12px;
+}
+
+table tr td {
+    border-collapse: collapse;
+    border: rgba(255, 255, 255, 0.432) solid 1px;
+    padding: 12px;
+
+}
+
+@media (min-width: 700px) {
+
+    .maintour {
+        min-height: 100%;
+        width: 100%;
+        font-size: 20px;
+
+
+    }
+
+    table tr th {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+        padding: 20px;
+    }
+
+    table tr td {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+        padding: 23px;
+
+    }
+}
+
+@media (min-width: 1010px) {
+
+    .maintour {
+        min-height: 100%;
+        width: 100%;
+        font-size: 16px;
+
+    }
+
+    table tr th {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+        padding: 20px;
+    }
+
+    table tr td {
+        border: rgba(255, 255, 255, 0.432) solid .5px;
+        padding: 30.5px;
+
+    }
+}

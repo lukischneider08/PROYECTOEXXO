@@ -1,0 +1,31 @@
+.sectiongaleria {
+
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+    padding: 1px;
+}
+
+.sectiongaleria img {
+
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.sectiongaleria img:hover {
+
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+
+}
+
+@media (min-width: 700px) {
+}
+
+@media (min-width: 1010px) {
+}

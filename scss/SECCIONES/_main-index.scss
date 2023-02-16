@@ -1,0 +1,148 @@
+.blanco {
+    color: white;
+}
+
+.negrita {
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+}
+
+main {
+    background-color: #6969B3;
+    min-height: 100%;
+
+}
+
+
+main>div>div>a {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+main>div>div>a>img {
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.grid-contenedor {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.grid {
+    height: auto;
+    object-fit: cover;
+    border-radius: 25px;
+    width: 100%;
+}
+
+.imagen1 {
+    grid-area: "imagen1";
+}
+
+.imagen2 {
+    grid-area: "imagen2";
+}
+
+.imagen4 {
+    grid-area: "imagen4";
+}
+
+.imagen5 {
+    grid-area: "imagen5";
+}
+
+.imagen6 {
+    grid-area: "imagen6";
+}
+
+.imagen7 {
+    grid-area: "imagen7";
+}
+
+@media (min-width: 700px) {
+    .grid-contenedor {
+
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+    }
+
+    .grid {
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    main>div>div>a {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    main>div>div>a>img {
+        width: 95%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+        padding: 10px;
+
+    }
+}
+
+
+@media (min-width: 1010px) {
+
+    h1 {
+        text-align: center;
+        color: white;
+        padding-top: 30px;
+        font-size: 26px;
+    }
+
+    .grid-contenedor {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        align-items: stretch;
+    }
+
+    .grid {
+        height: auto;
+        object-fit: cover;
+
+
+    }
+
+    main>div>div>a {
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+    }
+
+    main>div>div>a>img {
+        min-width: 31vw;
+        min-height: auto;
+        object-fit: cover;
+        border-radius: 20px;
+        padding: 10px;
+
+
+    }
+
+}

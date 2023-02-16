@@ -1,0 +1,22 @@
+$color-principal: #98C1D9;
+$color-secundario: #6969B3;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+@import "./SECCIONES/_header.scss";
+
+@import "./SECCIONES/_main-index.scss";
+
+@import "./SECCIONES/_footer.scss";
+
+@import "./SECCIONES/_perfil.scss";
+
+@import "./SECCIONES/_discografia.scss";
+
+@import "./SECCIONES/_tour.scss";
+
+@import "./SECCIONES/_galeria.scss";

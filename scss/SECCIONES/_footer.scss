@@ -1,0 +1,22 @@
+footer>a>i {
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color: #98C1D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: auto;
+
+}
+
+
+@media (min-width: 1010px) {
+
+    footer {
+        padding: 10px;
+    }
+}
