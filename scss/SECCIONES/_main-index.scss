@@ -1,3 +1,10 @@
+main {
+    background-color: #6969B3;
+    min-height: 100%;
+    background:linear-gradient($color-secundario , $color-principal, $color-secundario) ;
+
+
+}
 .blanco {
     color: white;
 }
@@ -17,11 +24,6 @@ h1 {
     font-size: 26px;
 }
 
-main {
-    background-color: #6969B3;
-    min-height: 100%;
-
-}
 
 
 main>div>div>a {
