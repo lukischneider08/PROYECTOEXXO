@@ -1,10 +1,8 @@
 main {
-    background-color: #6969B3;
     min-height: 100%;
-    background:linear-gradient($color-secundario , $color-principal, $color-secundario) ;
-
-
+    background: linear-gradient($color-secundario , $color-principal, $color-secundario);
 }
+
 .blanco {
     color: white;
 }
@@ -130,7 +128,8 @@ main>div>div>a>img {
 
 
     }
-    div{}
+
+    div {}
 
     main>div>div>a {
         display: flex;

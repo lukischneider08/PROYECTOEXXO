@@ -1,11 +1,10 @@
 header {
-    background-color: $color-principal;
     display: flex;
     flex-direction: column;
     align-items: center;
     min-height: 90px;
-    background: linear-gradient($color-principal , white, $color-principal);
-    border: 1px black solid;
+    background: linear-gradient($color-principal ,$color-secundario, $color-principal);
+
 }
 
 header nav {

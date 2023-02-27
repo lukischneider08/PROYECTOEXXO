@@ -7,13 +7,11 @@
 
 /*SECCIONES*/
 header {
-  background-color: #98C1D9;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 90px;
-  background: linear-gradient(#98C1D9, white, #98C1D9);
-  border: 1px black solid; }
+  background: linear-gradient(#98C1D9, #6969B3, #98C1D9); }
 
 header nav {
   padding: 10px;
@@ -84,7 +82,6 @@ nav a:hover {
     color: black; } }
 
 main {
-  background-color: #6969B3;
   min-height: 100%;
   background: linear-gradient(#6969B3, #98C1D9, #6969B3); }
 
@@ -218,36 +215,55 @@ footer {
   width: auto; }
 
 .accordion-button {
-  background-color: #98C1D9;
-  height: 30px;
-  color: #98C1D9; }
+  height: 30px; }
 
 .accordion-body {
   padding: 8px 12px;
   background-color: #6969B3; }
 
 .mainperfil {
-  min-height: 100%;
-  width: 100%;
-  font-size: 20px; }
+  height: 1800px;
+  width: auto;
+  font-size: 17px; }
 
-.contenedorcards {
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto; }
+
+.container .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s; }
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
+.container .card img {
+  width: 330px;
+  height: 220px;
   object-fit: cover; }
 
-h5 {
-  padding-top: 20px; }
+.container .card p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 300; }
 
-.a {
-  width: 230px;
-  height: 270px;
-  border-radius: 10px; }
-
-.card {
-  border-radius: 15px; }
+.titulo {
+  text-align: center;
+  color: white;
+  padding-top: 12px; }
 
 @media (min-width: 700px) {
   .perfil {
@@ -260,25 +276,13 @@ h5 {
     padding-bottom: 25px; }
   .mainperfil {
     min-height: 700px;
-    width: 100%; }
-  .a {
-    width: 230px;
-    height: 270px;
-    border-radius: 10px; }
-  .card {
-    border-radius: 15px; } }
+    width: 100%; } }
 
 @media (min-width: 1010px) {
   .mainperfil {
     min-height: 100vh;
     width: 100%;
-    font-size: 16px; }
-  .a {
-    width: 300px;
-    height: 270px;
-    border-radius: 10px; }
-  .card {
-    border-radius: 15px; } }
+    font-size: 16px; } }
 
 .maindiscografia {
   padding: 10px;
