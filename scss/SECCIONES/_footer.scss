@@ -2,6 +2,10 @@ footer>a>i {
     font-size: 60px;
     color: rgb(0, 0, 0);
 }
+footer>a>i:hover{
+    transform: translateY(-5px);
+  
+}
 
 footer {
     background-color: #98C1D9;

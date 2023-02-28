@@ -8,7 +8,8 @@
 }
 
 .parrafo {
-    padding: 10px;
+    padding: 30px;
+    text-align: center;
 
 }
 
@@ -27,7 +28,6 @@ section{
 
     .img1discografia:hover {
         flex-grow: 1;
-        object-fit: cover;
         opacity: .5;
         transition: .6s ease;
         cursor: crosshair;
@@ -59,7 +59,9 @@ div {
     }
 
     .parrafo {
-        padding: 30px;
+        padding: 45px;
+        text-align: center;
+    
     }
 
 
@@ -105,7 +107,11 @@ div {
 @media (min-width: 1010px) {
 
 
-
+    .parrafo {
+        padding: 80px;
+        text-align: center;
+    
+    }
 
 
     .maindiscografia {
