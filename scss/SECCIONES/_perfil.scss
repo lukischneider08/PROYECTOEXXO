@@ -14,10 +14,11 @@ p {
     padding-bottom: 10px;
 }
 
-
-
 .accordion-button {
     height: 30px;
+    background: $color-principal !important;
+    border: $verdeagua solid 1px ;
+
 }
 
 .accordion-body {
@@ -143,9 +144,6 @@ p {
 
 
 }
-
-
-
 
 @media (min-width: 1440px) {
     .mainperfil {

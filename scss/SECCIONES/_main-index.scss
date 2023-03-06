@@ -1,6 +1,6 @@
 main {
     min-height: 100%;
-    background: linear-gradient($color-secundario , $color-principal, $color-secundario);
+    background: linear-gradient( $color-principal, $color-secundario , $color-principal);
 }
 
 .blanco {
@@ -20,6 +20,7 @@ h1 {
     color: white;
     padding: 10px;
     font-size: 26px;
+    
 }
 
 
